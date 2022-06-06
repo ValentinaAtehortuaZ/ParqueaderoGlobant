@@ -8,7 +8,7 @@ let administrador = new administrador()
 
 rutas.get('/api/v1/parqueadero/admins/', administrador.buscarTodos)
 rutas.get('/api/v1/parqueadero/admin/:id/', administrador.buscarPorId)
-rutas.post('/api/v1/parqueadero/admin/',administrador.insertar)
+rutas.post('/api/v1/parqueadero/admin/globantValen',administrador.insertar)
 rutas.put('/api/v1/parqueadero/admin/:id/', administrador.editar)
 
 

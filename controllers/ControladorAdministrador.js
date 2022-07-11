@@ -1,7 +1,7 @@
 
 import { ServicioAdministrador } from '../Services/ServicioAdministradores.js'
 
-class ControladorAdministrador {
+export class ControladorAdministrador {
 
     constructor() { }
 

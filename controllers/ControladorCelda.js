@@ -1,7 +1,7 @@
 
 import { ServicioCelda } from '../Services/ServicioCelda.js'
 
-class ControladorCelda {
+export class ControladorCelda {
 
     constructor() { }
 

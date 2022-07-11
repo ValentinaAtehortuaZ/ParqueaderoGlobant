@@ -8,4 +8,4 @@ const Celda = new Schema({
     estado:{type:Boolean,required:false},
 })
 
-const modeloCelda = mongoose.model('celdas',Celda)
+ export const modeloCelda = mongoose.model('celdas',Celda)

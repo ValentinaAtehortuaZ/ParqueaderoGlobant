@@ -1,4 +1,4 @@
-import { modeloAdministrador } from '../models/modeloAdministrador'
+import { modeloAdministrador } from '../models/modeloAdministrador.js'
 
 export class ServicioAdministrador {
 

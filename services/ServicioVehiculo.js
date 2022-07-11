@@ -1,12 +1,12 @@
-import { modeloVehiculo } from '../models/modeloVehiculo.js'
+import {modeloVehiculo} from '../models/modeloVehiculo.js'
 
-export class ServicioCelda {
+export class ServicioVehiculo{
 
 
     constructor() { }
 
     async buscar() {
-        let vehiculos = await modeloVehiculo.find()
+        let vehiculos = await  modeloVehiculo.find()
         return vehiculos
 
     }

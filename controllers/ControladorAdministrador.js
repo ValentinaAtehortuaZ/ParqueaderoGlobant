@@ -1,6 +1,6 @@
 import {ServicioAdministrador} from '../services/ServicioAdministradores'
 
-class ControladorAdministrador{
+export class ControladorAdministrador{
 
     constructor(){}
 

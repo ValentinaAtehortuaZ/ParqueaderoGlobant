@@ -8,7 +8,8 @@ const Vehiculo = new Schema({
     fechaSalida:{type:Date,requiered:false},
     idCelda:{type:String,required:true},
     descripcion:{type:String,required:false},
-    totalPago:{type:Number,required:false}
+    totalPago:{type:Number,required:false},
+    minutos:{type:Number,required:false}
 })
 
 export const modeloVehiculo = mongoose.model('vehiculos',Vehiculo)

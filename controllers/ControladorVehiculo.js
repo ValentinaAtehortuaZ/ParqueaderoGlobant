@@ -70,7 +70,8 @@ export class ControladorVehiculo{
             
             let diferencia=fechaSalida.getTime()-fechaEntrada.getTime()
             let diferenciaEnSegundos=diferencia/1000
-            let diferenciaEnMinutos=diferenciaEnSegundos/60
+            let diferenciaEnMinutos=Math.round(diferenciaEnSegundos/60)
+            datos.minutos=diferenciaEnMinutos
 
             // calculamos el costo del parqueadero
             let costo=diferenciaEnMinutos*tarifa

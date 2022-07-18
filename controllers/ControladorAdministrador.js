@@ -1,4 +1,4 @@
-import {ServicioAdministrador} from '../services/ServicioAdministradores'
+import {ServicioAdministrador} from '../services/ServicioAdministradores.js'
 
 export class ControladorAdministrador{
 
